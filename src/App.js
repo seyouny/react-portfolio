@@ -12,9 +12,11 @@ function App() {
   return (
     <Router>
       <div>
-        
         <Switch>
+         <Route path={process.env.PUBLIC_URL} components={Main}/>
+          <Route exact path="/react-portfolio" component={Main}/>
           <Route exact path="/" component={Main}/>
+
           <Route exact path="/project" component={Projects}/>
           <Route exact path="/resume" component={Resume}/>
         </Switch>
