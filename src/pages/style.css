@@ -1,5 +1,9 @@
 .resume{
+    
     margin: 10%;
+    margin-top: 5%;
     border: 2px solid #667256;
   padding: 20px;
+  color: gray;
+  text-shadow: 2px 2px 5px rgb(235, 177, 177);
 }
