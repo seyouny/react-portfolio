@@ -2,6 +2,8 @@ import React from 'react';
 import Project from "../components/card"
 import Navb from "../components/nav/navbar"
 import Row from 'react-bootstrap/Row'
+import Footer from "../components/footer"
+
 
 // import './App.css';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
@@ -34,16 +36,16 @@ class Projects extends React.Component {
             link: "https://github.com/seyouny/statsdash"
         },
         {
-            title: "Middle Ground",
+            title: "Full-Stack Portfolio",
             image: "./assets/img/middle.png",
-            description: " Middle|Ground aims to shine a light on the imbalanced and sometimes inaccurate news we receive through social media which inform our opinions, to promote greater perspective and dialogue about issues of social importance.",
-            link: "https://github.com/seyouny/Middleground"
+            description: "Another portfolio built with NodeJS. This portfolio displays a full-stack usage with a client-side and server-side implemented.",
+            link: "https://github.com/seyouny/portfolio"
         },
         {
-            title: "Middle Ground",
+            title: "Password Generator",
             image: "./assets/img/middle.png",
-            description: " Middle|Ground aims to shine a light on the imbalanced and sometimes inaccurate news we receive through social media which inform our opinions, to promote greater perspective and dialogue about issues of social importance.",
-            link: "https://github.com/seyouny/Middleground"
+            description: "Randomly generates a password based on user criteria. Display onto screen after selections are made.",
+            link: "https://github.com/seyouny/passwordgenerator"
         }
     ]
     render(){
@@ -60,6 +62,7 @@ class Projects extends React.Component {
                     />
                 })}
                 </Row>
+                <Footer/>
             </div>
             
         );
