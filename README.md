@@ -1,5 +1,11 @@
 # Portfolio Build
 
+As of 8/19/2020
+# Current issues are: 
+* Links aren't properly aligned, so GitHub pages isn't rendering proper pages
+* Images are not properly linked
+* Please run on local machine for full function
+
 This is the repository where I continuously build my portfolio throughout the course of the UC Berkeley Bootcamp and beyond. 
 Watch the progress of my skills and projects increase through this documentation.
 
