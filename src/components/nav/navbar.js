@@ -8,10 +8,10 @@ import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 export default function Navb() {
     return (    
     <Navbar bg="light" variant="light">
-    <Navbar.Brand href="#">Stacey</Navbar.Brand>
+    <Navbar.Brand href="/">Stacey</Navbar.Brand>
     <Nav className="mr-auto">
-        <Nav.Link href="#project">Projects</Nav.Link>
-        <Nav.Link href="#resume">Resume</Nav.Link>
+        <Nav.Link href="/projects">Projects</Nav.Link>
+        <Nav.Link href="/resume">Resume</Nav.Link>
         <Nav.Link href="https://www.linkedin.com/in/seyouny">LinkedIn</Nav.Link>
     </Nav>
     

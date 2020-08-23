@@ -14,9 +14,9 @@ function App() {
       <div>
         <Switch>
          {/* <Route path={process.env.PUBLIC_URL} components={Main}/> */}
-          <Route exact path="/#" component={Main}/>
-          <Route exact path="/#project" component={Projects}/>
-          <Route exact path="/#resume" component={Resume}/>
+          <Route exact path="/" component={Main}/>
+          <Route exact path="/projects" component={Projects}/>
+          <Route exact path="/resume" component={Resume}/>
         </Switch>
        
       </div>
